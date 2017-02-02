@@ -1,0 +1,19 @@
+menu section table{width:300px;height:50px;margin-left:-10px;margin-top:30px;float:left}
+body menu section iframe{;width:400;height:300;margin-top:20px;margin-left:55px;frameborder:0;
+}
+body menu > iframe{height:100px;;margin-top:10px;margin-left:-5px}
+
+@media(max-width:1200px){
+
+body > menu{height:1050px}
+body menu section iframe{margin-top:100px;width:300px}
+menu footer{margin-top:120px}
+table{width:20%;height:20%;margin-left:50px;}
+}
+
+@media(max-width:1050px){
+	body > menu{height:1530px;width:600px;}
+	table{width:200px;height:40px;margin-top:80px}
+	body menu section iframe{background-color:purple;margin-left:20px;width:500;margin-top:20px}
+	body menu > iframe{height:150px;background-color:;margin-left:-15px}
+}

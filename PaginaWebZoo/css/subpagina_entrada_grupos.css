@@ -1,0 +1,4 @@
+menu article ul li:nth-child(n){list-style-type:none;color:green}
+menu article ul li:nth-child(2n+2){color:black;list-style-type:disc}
+menu article ul li:first-child{font-family:'Oswald';color:black;list-style-type:square;font-style:italic;text-transform:uppercase;text-decoration:overline}
+

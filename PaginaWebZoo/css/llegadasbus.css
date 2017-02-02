@@ -1,0 +1,2 @@
+menu article ul li:first-child,menu article ul li:nth-child(3),
+menu article ul li:nth-child(5){margin-left:40px;margin-top:20px;list-style-type:decimal;text-shadow:0.5px 0.5px}

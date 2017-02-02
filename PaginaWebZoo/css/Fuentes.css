@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Oswald');
+
+@font-face {
+font-family: 'Oswald';
+src: url (fonts/Oswald/Oswald-Bold.ttf), format("truetype");
+src: url ('https://fonts.googleapis.com/css?family=Baloo+Bhai|Oswald');
+}
+@font-face {
+font-family: 'Baloo Bhai', cursive;
+src: url (fonts/Baloo_Bhai/BalooBhai-Regular.ttf), format("truetype");
+src: url ('https://fonts.googleapis.com/css?family=Baloo+Bhai|Oswald')
+}
+
+header,section{font-family: 'Oswald', sans-serif;}
+article,table{font-family: 'Baloo Bhai', cursive;}

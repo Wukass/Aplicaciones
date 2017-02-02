@@ -1,0 +1,5 @@
+menu {width:300px}
+menu header {font-size:2em;text-decoration:underline;font-weight:bold;text-align:center;margin-left:-40px;width:300px;color:orange}
+menu article ul{width:280px;margin-left:-40px;margin-top:0px}
+menu article ul li:first-child,menu article ul li:nth-child(11){margin-left:40px;margin-top:20px;list-style-type:decimal;text-shadow:0.5px 0.5px}
+menu article ul li{margin-left:40px;margin-top:20px;list-style-type:decimal}

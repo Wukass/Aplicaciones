@@ -1,0 +1,20 @@
+﻿
+menu header{text-decoration:underline}
+menu section article{margin-top:50px;}
+menu section article:nth-child(2) img{margin-left:0px;display:inline-block}
+img{padding:10px}
+
+@media(max-width:700px){
+
+menu{height:1100px}
+header{text-align:center}
+header img{display:none}
+article{padding-top:10px;float:none}
+article:nth-child(3){padding-top:100px}
+menu img{margin-bottom:20px}
+}
+@media(max-width:560px){
+	menu{height:1800px;width:400px}
+	article{padding-top:30px}
+	article:nth-child(3){padding-top:200px}
+}

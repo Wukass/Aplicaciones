@@ -1,0 +1,40 @@
+﻿menu section menu article:first-child{width:50%;height:100%;background-color:white;}
+menu section menu article{background-color:white;height:100%;width:50%;float:left;
+margin-top:-30px}
+menu section menu article ul li{text-align:center;list-style-type:none}
+a{text-decoration:none;color:#ED9E46}
+menu section menu article ul li ul li{display:none}
+menu section menu article ul li:hover ul li{display:inline;margin-top:50px}
+menu section menu article ul li ul li a img{margin-top:30px;margin-left:8px}
+menu section menu article ul li  a:hover{color:blue;font-size:1.3em}
+
+menu section menu article ul li ul{margin-top:10px}
+body menu > section{width:80%;height:5%;margin-top:40px;margin-left:60px}
+body menu iframe{width:90%;height:53%;background-color:olive;position:relative;margin-top:60px;margin-left:20px}
+@media(max-width:800px){
+	body > menu{height:1400px}
+	menu section menu article:first-child{width:400px;height:100px}
+	menu section menu article{float:none;margin-top:-20px;width:400px;height:110px}
+	menu section menu article ul li{text-align:center;list-style-type:none;display:block;padding-top:10px;margin-left:-25px}
+	menu section menu article{margin-left:-20px}
+	menu section menu article ul li:hover ul li{display:inline;margin-left:-80px}
+	menu section menu article ul li:hover ul{width:320px;margin-left:-15px}
+	menu section menu article ul li ul li a img{margin-top:5px;margin-left:60px}
+	menu section menu article ul li ul li a {margin-left:20px;}
+	body menu iframe{margin-top:150px}
+	
+	
+}
+
+@media(max-width:650px){
+	body > menu{width:400px}
+	menu section menu article:first-child{height:150px}
+	menu section menu article{height:170px;margin-left:-120px;}
+	menu section menu article ul li:hover ul li{margin-left:30px}
+	menu section menu article ul li:hover ul{width:400px;margin-left:-80px;margin-top:-5px}
+	menu section menu article ul li ul li a img{margin-top:20px;margin-left:20px}
+	menu section menu article ul li ul:last-child li a img{margin-top:10px;margin-left:10px}
+	body menu iframe{margin-top:280px;margin-left:-5px;height:620px}
+	
+	
+}

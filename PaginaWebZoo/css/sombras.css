@@ -1,0 +1,2 @@
+﻿section article:nth-child(2n) img{box-shadow: 10px 10px 10px 5px gray}
+section article:nth-child(2n+1) img{box-shadow: -10px 10px 10px 5px gray}

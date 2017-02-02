@@ -1,0 +1,17 @@
+menu > section{width:80%;height:300px;margin-left:50px;margin-top:150px}
+body menu > section a:first-child article {width:50%;background-image:url(icons/cahorro_tigre.jpg);height:100%;float:left}
+body menu > section a:last-child article {background-image:url(icons/servicios.jpg);width:50%;height:100%;float:left}
+body menu > section a{font-size:3em}
+body menu footer{margin-top:100px}
+
+@media(max-width:900px){
+
+body menu > section a:first-child  article {width:400px;float:none;
+margin-left:-50px}
+body menu > section a:last-child article {float:none;width:400px;
+margin-left:-50px}
+body menu footer{margin-top:490px}
+}
+@media(max-width:500px){
+	body > menu{width:450px}
+}

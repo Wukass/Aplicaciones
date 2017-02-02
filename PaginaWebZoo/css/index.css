@@ -1,0 +1,19 @@
+body menu section menu video{width:50%;height:500px;margin-top:20px;margin-left:100px}
+menu header section:last-child{color:orange;font-size:2em;text-align:center}
+menu > section:nth-child(2){background-color:yellow;
+width:200px;height:100px}
+footer{margin-left:10px}
+
+@media(max-width:1100px){
+	body > menu{height:900px;}
+	body menu section menu video{width:70%;height:80%;margin-left:-20px}
+	section menu div ul li ul{display:none}
+	div ul li a:hover ul, div ul li:hover ul{position:relative;display:block;left:-161px}
+	body menu footer{margin-top:10px;}
+}
+	
+@media(max-width:600px){
+	body > menu{width:400px;height:970px;}
+	body menu section menu video{width:90%;height:30%}
+	body menu footer{margin-top:70px;}
+}

@@ -1,0 +1,23 @@
+﻿menu{width:90%;height:768px;border:dashed 2pt orange}
+menu header{font-size:3em;color:black;text-align:center}
+menu section article{margin-top:70px;}
+menu section article:nth-child(2) img{width:300px;height:150px;}
+img{padding:5px;}
+menu section article header{font-size:2em;color:orange;text-decoration:overline }
+
+@media(max-width:1100px){
+menu{height:1500px;margin-right:10px}
+article:nth-child(2){margin-top:100px}
+article:nth-child(3){margin-top:200px}
+
+header{text-align:center}
+
+}
+
+@media(max-width:450px){
+article:nth-child(2){margin-top:70px}
+article:nth-child(3){margin-top:70px}
+img{display:none}
+
+menu{height:1300px;width:400px}
+}

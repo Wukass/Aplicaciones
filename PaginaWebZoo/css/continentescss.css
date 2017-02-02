@@ -1,0 +1,9 @@
+menu{background-color:yellow;width:90%;height:800px;border:5pt maroon dotted}
+menu > header{font-size:3em;text-align:center;text-decoration:underline}
+menu section article{background-color:lightgray;margin-top:20px;height:150px;margin-left:-20px;
+margin-right:20px;padding:5px}
+img{float:left;width:100px;height:100px;margin-top:-20px;padding-right:5px}
+menu section article header{text-align:center;text-decoration:overline;color:orange}
+@media(max-width:800px){
+	menu{width:800px}
+}

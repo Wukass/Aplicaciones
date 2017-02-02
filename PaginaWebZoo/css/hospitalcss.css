@@ -1,0 +1,24 @@
+﻿menu header{text-decoration:underline}
+menu article header{text-decoration:overline;color:orange;
+font-size:2em}
+menu section article{margin-top:40px;}
+menu section article:nth-child(2){margin-top:200px;}
+menu section article:nth-child(2) img{margin-left:0px;}
+img{padding:10px}
+
+@media(max-width:700px){
+
+menu{height:1100px}
+header{text-align:center}
+header img{display:none}
+article{padding-top:10px;float:none}
+article:nth-child(3){padding-top:100px}
+menu img{margin-bottom:20px}
+menu section article:nth-child(2){margin-top:200px;}
+}
+@media(max-width:560px){
+	menu{height:1200px;width:400px}
+	article{padding-top:80px}
+	article:nth-child(3){padding-top:200px}
+	menu section article:nth-child(2){margin-top:250px;}
+}

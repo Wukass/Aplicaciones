@@ -1,0 +1,13 @@
+﻿body menu iframe{background-color:olive;width:90%;height:350px;margin-top:30px;margin-left:40px;frameborder:0;}
+
+@media(max-width:1000px){
+
+	body menu iframe{height:670px;margin-left:-5px}
+	
+}
+@media(max-width:500px){
+
+	body > menu{width:400px;heigth:600px;}	
+	body menu iframe{height:670px;margin-left:-5px}
+	menu section menu article {width:450px;margin-left:-150px;height:100px;border:none}
+}

@@ -1,0 +1,10 @@
+body > menu{width:90%;height:500px;margin:0px auto;border:5pt dashed green;background-color:lightgray}
+			menu header{text-align:center;vertical-align:middle;font-size:2em;color:orange}
+			menu header section{text-align:center;vertical-align:middle;font-size:3em;}
+			menu section article{margin-right:10px;margin-bottom:20px;}
+			img{width:100px;height:100px;margin-left:60px;box-shadow:10px 10px 10px}
+			
+@media(max-width:600px){
+	body > menu{width:600px}
+	
+}

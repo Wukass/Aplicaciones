@@ -1,0 +1,5 @@
+menu{width:90%;height:800px}
+menu > header{font-size:3em;text-align:center;text-decoration:underline;color:orange}
+menu section article{margin-top:20px;margin-left:-20px;
+margin-right:20px;padding:5px}
+img{float:left;width:100px;height:100px;margin-top:-20px;padding-right:5px}

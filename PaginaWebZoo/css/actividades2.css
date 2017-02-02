@@ -1,0 +1,23 @@
+body menu > section article ul{background-color:green;
+width:90%;height:50px;margin-top:20px}
+body menu > section article ul li{list-style-type:none;float:left;margin-left:10px;width:150px;height:100%}
+body menu > section article ul li a{color:orange;font-size:1em}
+body menu > section  iframe{width:70%;height:400px;margin-left:100px}
+body menu footer{margin-top:50px;}
+
+
+@media(max-width:850px){
+
+	body menu > section article ul{height:100px}
+	body menu > section article ul li{height:50%}
+	body menu footer{margin-top:400px;}
+}
+	
+@media(max-width:450px){
+	body{width:400px}
+	body menu > section article ul{height:400px;width:200px;margin-left:30px}
+	body menu > section article ul li{height:25%;}
+	body menu > section  iframe{width:90%;height:400px;margin-left:-10px}
+	body menu footer{margin-top:100px;}
+}
+		

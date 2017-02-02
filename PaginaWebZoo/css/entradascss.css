@@ -1,0 +1,55 @@
+menu footer{margin-top:80px;position:relative}
+
+menu  menu  section:first-child article{width:200px;height:200px;background-image:url(icons/publicidad/publi1.jpg);margin-left:20px;}
+
+menu  menu  section article:nth-child(2){width:200px;height:200px;background-image:url(icons/publicidad/publi2.jpg);
+margin-left:20px;margin-top:10px}
+
+menu > article{background-image:url(icons/publicidad/publi3.jpg);width:100px;height:70px;
+border-left:30px;margin-right:105px;border-radius:50px;text-align:center;float:right;margin-top:40px}
+
+menu > menu {width:90%;height:420px}
+
+menu > menu  section:last-child{width:300px;height:100px;float:right;
+margin-top:-390px;}
+
+menu > menu  section:last-child article{background-color:#095E34;
+width:500px;height:50px;margin-left:-250px;}
+
+menu > menu  section:last-child article ul{list-style-type:none
+;background-color:red;width:100%}
+
+menu > menu  section:last-child article ul li{width:120px;float:left;height:100%;padding-top:10px;}
+
+menu > menu  section:last-child article ul li a{font-size:1.5em}
+
+menu > menu  section:last-child iframe{width:500px;height:350px;margin-left:-250px;}
+
+@media(max-width:990px){
+	
+	menu  menu  section:first-child article{float:left}
+	
+	menu  menu  section:first-child article:nth-child(2){
+float:right;margin-right:50px;margin-top:0px}
+
+	menu > menu  section:last-child article{margin-left:-250px;
+	margin-top:450px}
+	
+	menu > menu  section:last-child iframe{margin-left:-250px;}
+	
+	menu > article{margin-right:105px;margin-top:420px}
+}
+
+@media(max-width:700px){
+	
+	body > menu{width:500px;height:1170px}
+	
+	menu  menu  section:first-child article{margin-left:-20px}
+	
+	menu > menu  section:last-child article{margin-left:-210px;
+	margin-top:430px}
+	
+	menu > menu  section:last-child iframe{margin-left:-212px;}
+	
+	menu > article{margin-right:60px;margin-top:300px;}
+}
