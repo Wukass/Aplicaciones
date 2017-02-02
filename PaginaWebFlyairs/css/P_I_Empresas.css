@@ -1,0 +1,42 @@
+.header{font-family:'Bungee Inline';}
+.foto{background-color: aqua;height:100%;}
+.Foto{background-color: pink;height: 200px}
+.nombre{background-color: yellow;height: 200px}
+.contenido{background-color: green;height: 300px}
+.section{margin-top:20px;}
+.Nombre:hover{font-size:1.5em;cursor:pointer;}
+p{font-family:'Ubuntu';}
+div p:first-child{border:1px solid black;border-radius:20%;box-shadow:0px 10px 5px 5px;}
+.footer{height:100px;background-color:gray;}
+.img1 {background:url('iconos.png');height:50px;background-repeat:no-repeat;width:45px}
+.img2 {background:url('iconos.png')-75px;height:50px;background-repeat:no-repeat;width:45px}
+.img3 {background:url('iconos.png')-150px;height:50px;background-repeat:no-repeat;width:45px}
+.img4 {background:url('iconos.png')-218px;height:50px;background-repeat:no-repeat;width:45px}
+footer a{width:200px;display:inline-block;background-repeat:no-repeat;padding-top:0px}
+
+.logo{background-color:blue;height:100px}
+.cabecera{background-color:green;height:100px}
+.iconomenu{background-image:url('menu.svg');background-repeat:no-repeat;width:50px;height:50px;
+background-color:;background-position:center;cursor:pointer}
+.menu{background-color:;flex-direction:column;display:none}
+.menu a{flex:1 1 auto;}
+.menu1{background-color:blue}
+.menu2{background-color:white}
+.menu3{background-color:yellow}
+.menu4{background-color:gray}
+.menu5{background-color:lightgreen}
+.menu6{background-color:aqua}
+.menu7{background-color:orange}
+.menu8{background-color:pink}
+
+@media(min-width:38.5em){
+.row div:hover{font-size:1.2em;cursor:pointer;}
+}
+
+@media(min-width:50.5em){
+section{display:flex;}
+.destinos1{order:1;}
+.destinos2{order:3;}
+.contenidos{order:2;}
+.menu{flex-direction:row}
+}
