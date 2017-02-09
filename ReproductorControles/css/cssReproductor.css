@@ -1,0 +1,16 @@
+#caja-contenedor{display:flex;flex-direction:column;position:absolute;
+	background-color:gray;width:800px}
+#video{width:800px;height:500px}
+#caja-control{display:flex;justify-content:space-around}
+#agrandar,#audio,#control{margin:5px}
+#caja-tiempo{width:100%;margin-top:10px;background-color:red}
+
+#caja-control #control,#agrandar{margin-left:30px}
+#caja-control img,input{cursor:pointer}
+#control img{margin-left:20px}
+#caja-tiempo{display:flex;}
+#caja-tiempo span {flex: 1 1 20%;text-align:center;}
+#caja-tiempo input {flex: 2 2 50%}
+div div div div:nth-child(2) img:nth-child(2){width:20px;height:20px}
+.agrandar{width:20px;height:20px}
+.mute{width:20px;height:20px}

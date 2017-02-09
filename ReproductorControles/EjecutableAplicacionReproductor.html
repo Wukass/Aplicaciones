@@ -1,0 +1,38 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="css/cssReproductor.css"></link>
+	<script src="js/Reproductor.js"></script>	
+</head>
+<body >
+<h1 ALIGN="CENTER">VIDEO CON CONTROLES</h1>
+<video id="video" poster="http://placehold.it/800x500" >
+<source src="video/m4v/BigBuckBunnyTrailer480x270_h264aac.m4v" type="video/mp4" codecs="">
+<source src="video/ogv/BigBuckBunnyTrailer480x270.ogv" type="video/ogv" codecs="">
+</video>
+<div id="caja-contenedor" >
+	<div id="contenido">
+		<div id="caja-control">
+			<div id="audio">
+				<img src="imgs/lv.svg" name="vol" class="mute"></img>
+				<input type="range" name="rango_vol"/>
+				<img src="imgs/hv.svg" name="vol_total"></img>
+				<p id="Sonido"></p>
+			</div>
+			<div id="control">
+				<img src="imgs/rw.svg" name="atras"></img>
+				<img src="imgs/play.svg" name="play"></img>
+				<img src="imgs/ff.svg" name="adelante"></img>
+			</div>
+			<div id="agrandar">
+				<img src="imgs/fs.svg" name="maximizar" class="agrandar"></img>
+			</div>
+		</div>
+		<div id="caja-tiempo">
+			<span name="tiempo"></span>
+			<input type="range" name="rango_tiempo"/>
+			<span name="tiempo_total"></span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
