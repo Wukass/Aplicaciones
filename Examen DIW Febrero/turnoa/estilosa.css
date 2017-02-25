@@ -1,0 +1,28 @@
+/*
+ * Reset
+*/
+body, h1, h2, h3, h4, figure, img {
+  border: 0; 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* 
+ * Colores
+*/
+label, header, footer { 
+  background-color: #ecbf26;
+}
+
+nav {
+  background-color: #2a2a2a; 
+}
+
+section > section {
+  background-color: #00a7ff;
+}
+
+footer {
+  color: #696664;
+}
+

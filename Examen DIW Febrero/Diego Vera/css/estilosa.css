@@ -1,0 +1,202 @@
+
+/*
+ * Reset
+*/
+@font-face{
+	font-family:'BR';
+	src:url('../fuentes/BebasNeue Regular.woff');
+}
+
+@font-face{
+	font-family:'ML';
+	src:url('../fuentes/montserrat-light-webfont.woff');
+}
+/*Extra*/
+h1,h3,h6,nav,label{font-family:'BR'}
+p,span,figure{font-family:'ML'}
+header h1{text-shadow:10px 10px 5px;padding:10px;}
+label{text-shadow:5px 0px 5px;}
+/*Extra*/
+nav a:hover{
+	transform:scale(1.2);
+	transition transform .300s;
+}
+
+body, h1, h2, h3, h4, figure, img {
+  border: 0; 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* 
+ * Colores
+*/
+label, header, footer { 
+  background-color: #ecbf26;
+}
+
+header{
+	background-image:url('../imagenes/ladrillos.jpg');
+}
+
+nav {
+  background-color: #2a2a2a; 
+  padding:10px;
+}
+
+nav a{
+	color:white;
+	text-decoration:none;
+}
+
+section > section {
+  background-color: #00a7ff;
+  font-size:0.8em;
+  display:column
+}
+
+section > section article:first-child,section > section article:nth-child(2){
+	border-bottom:6pt solid white;
+}
+
+section > section article:nth-child(2),
+section > section article:last-child{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+section > section article:nth-child(2) h3,
+section > section article:last-child h3{
+	flex:1 1 100%
+}
+
+section > section article:nth-child(2) p,
+section > section article:last-child p{
+	flex:1 0 10%;
+}
+
+section > section article:nth-child(2) figure,
+section > section article:last-child figure{
+	flex:1 0 2%;
+}
+
+
+section > section article + section > section article{
+	margin-bottom:10px;
+	padding-top:10px;
+}
+
+section > section article:first-child{
+	display:flex;
+	flex-direction:column;
+}
+
+section > section article:first-child figure img {
+	width:80%;
+}
+
+section > section article:last-child figure img {
+}
+section > section article:first-child figure{order:1}
+section > section article:first-child p{order:2;}
+section > section article:first-child h3{order:0;padding-top:10px}
+
+
+section > section article:nth-child(2){
+	display:flex;
+}
+
+section > section article:nth-child(2) figure{order:2}
+section > section article:nth-child(2) p{order:1;}
+section > section article:nth-child(2) h3{order:0;padding:20px;}
+
+section > section article:last-child{
+	display:flex;
+}
+
+section > section article:last-child figure{order:1}
+section > section article:last-child p{order:2;}
+section > section article:last-child h3{order:0;padding:20px;}
+
+
+footer {
+  color: #696664;
+  text-align:center;
+}
+
+footer span:before{
+	content:"Diego Vera Isabel";
+}
+
+main{
+	display:flex;
+	flex-direction:column;
+}
+input{
+	display:none;
+}
+main section{
+	display:flex;
+	flex-direction:column
+}
+
+main section label{
+	text-align:center;
+	width:100%;
+	padding:5px;
+}
+
+input ~ nav{
+	display:none;
+}
+
+input:checked ~ nav{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+	
+input:checked ~ nav a{
+	padding:10px;
+	border-bottom: white 1px solid;
+}
+
+@media(min-width:28.5em){
+	section > section article p{
+		font-size:1em;
+	}
+	
+	label{
+		display:none;
+	}
+	
+	input ~ nav{
+		display:flex;
+		justify-content:space-around;
+	}
+	
+	nav a{
+		padding:10px;
+	}
+}
+
+@media(min-width:60.5em){
+	
+	section > section {
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	
+	section > section article:first-child{
+		flex:1 0 50%;
+	}
+	section > section article:nth-child(2){
+		flex:1 0 50%;
+	}
+	
+	section > section article:nth-child(3){
+		flex:1 1 10%;
+	}
+	
+}
